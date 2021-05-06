@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Manrope:600,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="flex-content">
+        <!-- title -->
+        <img rel="img-title" class="img-title" src="./images/pattern-circles.svg">
+        <h3>Simple, traffic-based pricing</h3>
+        <p>
+          Sign-up for our 30-day trial. 
+          No credit card required.
+        </p>
+   
+        <!-- card -->
+        <div class="card">
+          <div class="section section-1">
+            <p class="pageviews" id="pageviews"></p>
+          </div>
+          <div class="section section-2">
+            <p><span class="price" id="price"></span>/ month</p>
+          </div>
+          <div class="section section-3">
+            <input type="range" min="0" max="4" step="1" class="slider" id="range">
+          </div>
+          <div class="section section-4">
+            <p>Monthly Billing  
+            <label class="switch">
+              <input type="checkbox" id="switch_"><span class="slide round"></span>
+            </label></p>
+             <p>
+               Yearly Billing 
+               <span class="discount-desktop">25% discount</span>
+               <span class="discount-mobile">-25%</span>
+              </p>
+          </div>
+          <div class="section section-5">
+            <hr>
+          </div>
+          <div class="section section-6">
+            <p>
+              <span> <img rel="check" src="./images/icon-check.svg"> Unlimited websites</span><br/>
+              <span><img rel="check"  src="./images/icon-check.svg"> 100% data ownership</span><br/>
+              <span><img rel="check"  src="./images/icon-check.svg"> Email reports</span><br/>
+            </p>
+            <p class="boton">Start my trial</p>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
